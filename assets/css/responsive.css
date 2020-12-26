@@ -357,7 +357,7 @@
         padding: 15px 0px !important;
     }
     .nav-style-01 .bar1, .nav-style-01 .bar2, .nav-style-01 .bar3 {
-        background: #043381;
+        background: #fff;
     }
     .nav-style-01 .responsive-mobile-menu .navbar-toggler {
         left: calc(100% - 295px);
