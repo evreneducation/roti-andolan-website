@@ -33,6 +33,11 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- responsive Stylesheet -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <style type="text/css">
+          html {
+            scroll-behavior: smooth;
+          }
+    </style>
 </head>
 <body>
 
@@ -48,7 +53,7 @@
     <!-- preloader area end -->
 
     <!-- search Popup -->
-    <div class="body-overlay" id="body-overlay"></div>
+    <!-- <div class="body-overlay" id="body-overlay"></div>
     <div class="search-popup" id="search-popup">
         <form action="index.html" class="search-form">
             <div class="form-group">
@@ -56,7 +61,7 @@
             </div>
             <button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
         </form>
-    </div>
+    </div> -->
     <!-- //. search Popup -->
 
     <!--sidebar menu start-->
@@ -107,57 +112,21 @@
                     </button>
                 </div>
                 <div class="logo">
-                    <a href="index.html"> <img src="assets/img/logo.jpeg" alt="logo"></a>
+                    <a href="index.html"> <img src="assets/img/logo.jpeg" alt="logo" style="height: 10%;width: 40%;"></a>
                 </div>
                 <div class="collapse navbar-collapse" id="billatrail_main_menu">
                     <ul class="navbar-nav menu-open">
-                        <!-- <li class="menu-item-has-children current-menu-item">
-                            <a href="#">Home</a>
-                            <ul class="sub-menu">
-                                <li><a href="index.html"><i class="fa fa-long-arrow-right"></i>Home 01</a></li>
-                                <li><a href="index-2.html"><i class="fa fa-long-arrow-right"></i>Home 02</a></li>
-                                <li><a href="index-3.html"><i class="fa fa-long-arrow-right"></i>Home 03</a></li>
-                                <li><a href="index-4.html"><i class="fa fa-long-arrow-right"></i>Home 04</a></li>
-                                <li><a href="index-5.html"><i class="fa fa-long-arrow-right"></i>Home 05</a></li>
-                            </ul>
-                        </li> -->
-                        <li><a href="about.html">About Us</a></li>
-                        <li class="menu-item-has-children">
-                            <a href="#">Events</a>
-                            <ul class="sub-menu">
-                                <li><a href="event.html"><i class="fa fa-long-arrow-right"></i>Events</a></li>
-                                <li><a href="event-details.html"><i class="fa fa-long-arrow-right"></i>Event Details</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="#">Pages</a>
-                            <ul class="sub-menu">
-                                <li><a href="action.html"><i class="fa fa-long-arrow-right"></i>Take Action</a></li>
-                                <li><a href="volunteer.html"><i class="fa fa-long-arrow-right"></i>Become a volunteer</a></li>
-                                <li><a href="causes.html"><i class="fa fa-long-arrow-right"></i>Recent Cases</a></li>
-                                <li><a href="causes-details.html"><i class="fa fa-long-arrow-right"></i>Cases Details</a></li>
-                                <li><a href="team.html"><i class="fa fa-long-arrow-right"></i>Team</a></li>
-                                <li><a href="404.html"><i class="fa fa-long-arrow-right"></i>404</a></li>
-                                <li><a href="coming-soon.html"><i class="fa fa-long-arrow-right"></i>Coming Soon</a></li>
-                                <li><a href="faq.html"><i class="fa fa-long-arrow-right"></i>FAQ</a></li>
-                                <li><a href="donate.html"><i class="fa fa-long-arrow-right"></i>Donate</a></li>
-                                <li><a href="signin.html"><i class="fa fa-long-arrow-right"></i>Sign In</a></li>
-                                <li><a href="signup.html"><i class="fa fa-long-arrow-right"></i>Sign Up</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="#">Blog</a>
-                            <ul class="sub-menu">
-                                <li><a href="blog.html"><i class="fa fa-long-arrow-right"></i>Blog</a></li>
-                                <li><a href="blog-no-sidebar.html"><i class="fa fa-long-arrow-right"></i>Blog Without Sidebar</a></li>
-                                <li><a href="blog-details.html"><i class="fa fa-long-arrow-right"></i>Blog Details</a></li>
-                                <li><a href="blog-details-no-sidebar.html"><i class="fa fa-long-arrow-right"></i>Blog Details Without Sidebar</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contact.html">Contact Us</a></li>
+       
+                        <li><a href="#aboutdiv">About Us</a></li>
+                        <li><a href="#blogdiv">News</a></li>
+                        <li><a href="#contactdiv">Contact Us</a></li>
+
+
+            
+                     
                     </ul>
                 </div>
-                <div class="nav-right-part">
+                <!-- <div class="nav-right-part">
                     <ul>
                         <li class="search" id="search">
                             <a href="#"><i class="fa fa-search"></i></a>
@@ -166,7 +135,7 @@
                             <a><i class="flaticon-menu-button"></i></a>
                         </li>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </nav>
     </div>
@@ -375,7 +344,7 @@
     <!-- location area end -->
 
     <!-- organization area start -->
-    <div class="politx-content-area">
+    <div class="politx-content-area" id="aboutdiv" style="scroll-behavior:smooth;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 align-self-center">
@@ -401,59 +370,7 @@
     </div>
     <!-- organization area end -->
 
-    <!-- journey box start -->
-    <div class="padding-top-115">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="journey-box-content">
-                        <p class="section-subtitle">Road map</p>
-                        <h2 class="section-title">Our Journey form Begin<br> to Leading</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="journey-box-area">
-        <div class="container">
-            <div class="row">
-                <div class="journey-box-wrapper col-lg-12">
-                    <div class="journey-item-area">
-                        <div class="journey-box-item">
-                            <h4>Beginning'2013</h4>
-                            <p>First experience in entrepreneuring, projects for local companies.</p>
-                            <div class="jb-icon">
-                                <a href="#"><i class="flaticon-growth-1"></i></a>
-                            </div>
-                        </div>
-                        <div class="journey-box-item">
-                            <div class="jb-icon">
-                                <a href="#"><i class="flaticon-growth"></i></a>
-                            </div>
-                            <h4>Growth'2014</h4>
-                            <p>First experience in entrepreneuring, projects for local companies.</p>
-                        </div>
-                        <div class="journey-box-item">
-                            <div class="jb-icon">
-                                <a href="#"><i class="flaticon-money"></i></a>
-                            </div>
-                            <h4>Foundering'2014</h4>
-                            <p>First experience in entrepreneuring, projects for local companies.</p>
-                        </div>
-                        <div class="journey-box-item text-right">
-                            <div class="jb-icon">
-                                <a href="#"><i class="flaticon-achievement"></i></a>
-                            </div>
-                            <h4>Leading'2019</h4>
-                            <p>First experience in entrepreneuring, projects for local companies.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- journey box end -->
+ 
 
     <!-- member start -->
     <div class="about-member-count padding-top-135 padding-bottom-90">
@@ -602,49 +519,7 @@
     </div>
     <!-- candidate area end -->
 
-    <!-- upcoming event area start -->
-    <div class="up-event-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 align-self-center">
-                    <div class="content-box-style-01 up-event-content">
-                        <p class="section-subtitle">Upcoming Event</p>
-                        <h2 class="section-title">Leadership Conference</h2>
-                        <div class="d-flex flex-column flex-lg-row">
-                            <div class="box-date d-flex">
-                                <div class="box-icon">
-                                    <a href="#"><i class="flaticon-calendar"></i></a>
-                                </div>
-                                <div class="box-content">
-                                    <h4>15 Nov 2019</h4>
-                                    <h6>10.13am</h6>
-                                </div>
-                            </div>
-                            <div class="box-date d-flex">
-                                <div class="box-icon">
-                                    <a href="#"><i class="flaticon-location"></i></a>
-                                </div>
-                                <div class="box-content">
-                                    <h4>Benefit Teragram Hall</h4>
-                                    <h6>395 Nostrand Ave, Brooklyn</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in velit odio. Morbi sodales nisi nec tortor commodo, malesuada fermentum magna faucibus. Proin fringilla ante lacus, eu condimentum.</p>
-                        <div class="btn-wrapper margin-top-35">
-                            <a class="btn btn-custom-primary" href="#">Join with us</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="col-lg-6">
-                    <div class="up-thumb">
-                        <img src="assets/img/up-event.png" alt="">
-                    </div>
-                </div> -->
-            </div>
-        </div>
-    </div>
-    <!-- upcoming event area end -->
+ 
 
     <!-- party-box-area start -->
     <div class="party-box-area padding-top-120">
@@ -663,7 +538,7 @@
     <!-- party-box-area end -->
 
     <!-- news area Start -->
-    <div class="home-news-area padding-top-115">
+    <div class="home-news-area padding-top-115" id="blogdiv">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12">
@@ -777,58 +652,16 @@
     </div>
     <!-- news area End -->
 
-    <!-- brand-area start -->
-    <div class="brand-area margin-top-105 margin-bottom-165">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="brand-slider grey-bg">
-                        <div class="brant-item">
-                            <img src="assets/img/brand/brand1.png" alt="brand">
-                        </div>
-                        <div class="brant-item">
-                            <img src="assets/img/brand/brand2.png" alt="brand">
-                        </div>
-                        <div class="brant-item">
-                            <img src="assets/img/brand/brand3.png" alt="brand">
-                        </div>
-                        <div class="brant-item">
-                            <img src="assets/img/brand/brand4.png" alt="brand">
-                        </div>
-                        <div class="brant-item">
-                            <img src="assets/img/brand/brand5.png" alt="brand">
-                        </div>
-                        <div class="brant-item">
-                            <img src="assets/img/brand/brand1.png" alt="brand">
-                        </div>
-                        <div class="brant-item">
-                            <img src="assets/img/brand/brand2.png" alt="brand">
-                        </div>
-                        <div class="brant-item">
-                            <img src="assets/img/brand/brand3.png" alt="brand">
-                        </div>
-                        <div class="brant-item">
-                            <img src="assets/img/brand/brand4.png" alt="brand">
-                        </div>
-                        <div class="brant-item">
-                            <img src="assets/img/brand/brand5.png" alt="brand">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- brand-area end -->
 
     <!-- footer area start -->
-    <footer class="footer-area footer-style-1 main-bg">
+    <footer class="footer-area footer-style-1 main-bg" id="contactdiv">
         <div class="footer-top">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-4">
                         <div class="footer-widget widget contact-widget">
                             <a href="index.html" class="footer-logo"> 
-                                <img src="assets/img/logo.png" alt="footer logo">
+                                <img src="assets/img/logo.jpeg" alt="footer logo">
                             </a>
                             <p>Don’t you feel that the starving and the needy deserve at least one full meal once a day? Does it not haunt you that millions of our countrymen are starving but have no voice to express hunger or ask for food? Do you not feel a stirring within you that you can do a little for these people? If you do then you are welcome to join our movement. 
                             </p>
@@ -874,10 +707,6 @@
                                     <ul>
                                         <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Home</a></li>
                                         <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Donate</a></li>
-                                        <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Manifesto</a></li>
-                                        <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Members</a></li>
-                                        <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Call To Action</a></li>
-                                        <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Volunteer</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -886,11 +715,7 @@
                                     <h4 class="widget-title">Take action</h4>
                                     <ul>
                                         <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Contribute Now</a></li>
-                                        <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Our Volunteers</a></li>
-                                        <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Action Center</a></li>
                                         <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Register to Vote</a></li>
-                                        <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Contribute Now</a></li>
-                                        <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Our Volunteers</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -910,7 +735,7 @@
                             </div>
                             <div class="col-xl-11 offset-xl-1">
                                 <div class="copyright-area-inner copyright-sm margin-top-35">
-                                    Copyrights@All rights reserved. Made with <i class="fa fa-heart"></i> <a href="https://codingeek.net/" target="_blank">codingeek.com</a>
+                                    Copyrights@All rights reserved. Made with <i class="fa fa-heart"></i> <a href="https://evrenglobalsolutions.com/#/" target="_blank">Evren Global Solutions</a>
                                 </div>
                             </div>
                         </div>
